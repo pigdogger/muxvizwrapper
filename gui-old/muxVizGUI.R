@@ -103,6 +103,7 @@ library(shinydashboard)
 
 #uncomment the line below for detailed log of your session. Can be useful for debug purposes
 #options(shiny.trace=TRUE)
+options(shiny.port=42424)
 
 enableBookmarking(store = "server")
 runApp(getwd())
